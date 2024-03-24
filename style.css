@@ -1,0 +1,140 @@
+body{
+    background-color: #fdefcf !important;
+}
+
+.spacer{
+    height: 100px;
+}
+
+
+.headings-font{
+    font-family: "Bakbak One", sans-serif;
+    font-style: normal;
+    color: #282828;
+    font-weight: 900;
+    letter-spacing:-0.02em;
+    transform: scaleY(1.2);
+    font-size: 70px;
+}
+
+.education-heading{
+    font-family: "Bakbak One", sans-serif;
+    font-style: normal;
+    color: #282828;
+    font-weight: 400;
+    letter-spacing:-0.02em;
+    transform: scaleY(1.2);
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.standard-body-text{
+    font-family: "Noto Sans Display", sans-serif;
+    font-size: 17px;
+}
+
+.name{
+    font-size: 200px;
+    
+    display: inline-block; /* Required for transform to affect inline elements like text */
+    transform-origin: bottom;
+    line-height: 0.7em;
+    margin-left: -10px;
+}
+
+.test{
+    height: 500px;
+}
+
+.img1{
+    background-image: url(images/me.jpg);
+    width: 100%;
+    height: 800px;
+    background-position: center;
+
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 0px;
+}
+
+.spacer2{
+    height: 80px;
+}
+
+.button-to-work{
+    background-color: #282828; /* Button color */
+    color: #fdefcf; /* Text color */
+    border: none; /* No border */
+    padding: 15px 25px; /* Top and bottom padding, left and right padding */
+    text-align: center; /* Center the text inside the button */
+    text-decoration: none; /* Remove underline from links */
+    display: inline-block; /* Allow setting width and height */
+    font-size: 16px; /* Text size */
+    cursor: pointer; /* Mouse cursor on hover */
+    border-radius: 20px; /* Curved edges, the higher the number, the more rounded */
+    transition: background-color 0.3s ease;
+}
+
+.button-to-work:hover {
+    background-color: #707070; /* Darker shade when hovered for feedback */
+}
+
+.work-img{
+    width:100%;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.ohlo-grid{
+    max-width: 70%;
+}
+
+.work-link {
+    text-decoration: none; /* Removes the underline from the link */
+    color: inherit; /* The text color will be inherited from the parent element */
+}
+
+
+.uniwork{
+    max-width: 70%;
+}
+
+@media (max-width: 768px) {
+    
+    .ohlo-grid{
+        max-width: 100%;
+    }
+
+    .uniwork{
+        max-width: 100%;
+    }
+
+    .name{
+        font-size: 100px;
+    }
+
+    .img1{
+        height: 500px;
+        background-size: cover;
+    }
+
+  }
+
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+
+    .uniwork{
+        max-width: 100%;
+    }
+
+    .ohlo-grid{
+        max-width: 100%;
+    }
+
+    .name{
+        font-size: 160px;
+    }
+  }
+  
+  
